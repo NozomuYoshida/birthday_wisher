@@ -12,7 +12,9 @@ This is a birthday wisher made by Python. To use, 'smtplib' library installation
   - MY_EMAIL = 'example@gmail.com'
   - TO_EMAIL = 'example@gmail.com'
   - PASSWORD = 'example'
-- Also you might need to change the argments of [smtplib.SMTP('smtp.gmail.com', 587)] depending on the mail server you use
+- Also you might need to change:
+  - Argments of [smtplib.SMTP('smtp.gmail.com', 587)] depending on the mail server you use
+  - Setting of the security level of your mail server
 
 Comfirmed to work on:
 - MacOS (11.52)
