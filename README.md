@@ -12,6 +12,7 @@ This is a birthday wisher made by Python. To use, 'smtplib' library installation
   - MY_EMAIL = 'example@gmail.com'
   - TO_EMAIL = 'example@gmail.com'
   - PASSWORD = 'example'
+- Also you might need to change the argments of [smtplib.SMTP('smtp.gmail.com', 587)] depending on the mail server you use
 
 Comfirmed to work on:
 - MacOS (11.52)
